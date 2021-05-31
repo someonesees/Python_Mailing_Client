@@ -14,7 +14,7 @@ with open('password.txt', 'r') as f:
 server.login('xyzg@gmail.com', password)
 
 msg = MIMEMultipart()
-msg['From'] = 'NeuralNine'
+msg['From'] = 'xyzg'
 msg['To'] = 'testmail@spam1.de'
 msg['Subject'] = 'Just a text'
 
